@@ -1,0 +1,134 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To add the tariff plan",
+        "description": "",
+        "id": "to-add-the-tariff-plan;to-add-the-tariff-plan",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7070848583,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should be in telecom page",
+            "match": {
+              "location": "Tariff.the_user_should_be_in_telecom_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3787027712,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user shoukd click the add tariff plan",
+            "match": {
+              "location": "Tariff.the_user_shoukd_click_the_add_tariff_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3108278921,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should provide valide details",
+            "match": {
+              "location": "Tariff.the_user_should_provide_valide_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "rent",
+                  "lmin",
+                  "imin",
+                  "smspack",
+                  "mincharge",
+                  "intercharges",
+                  "smscharges"
+                ]
+              },
+              {
+                "cells": [
+                  "1000",
+                  "60",
+                  "120",
+                  "36",
+                  "50",
+                  "80",
+                  "40"
+                ]
+              },
+              {
+                "cells": [
+                  "2000",
+                  "40",
+                  "150",
+                  "46",
+                  "10",
+                  "100",
+                  "140"
+                ]
+              },
+              {
+                "cells": [
+                  "3000",
+                  "80",
+                  "300",
+                  "56",
+                  "20",
+                  "120",
+                  "250"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99750604,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should validate the customer id",
+            "match": {
+              "location": "Tariff.the_user_should_validate_the_customer_id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "To add the tariff plan",
+    "description": "",
+    "id": "to-add-the-tariff-plan",
+    "keyword": "Feature",
+    "uri": "C:/Users/ADMIN/eclipse-workspace/cucumber/src/test/resources/feature/twodmap.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
